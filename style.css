@@ -67,6 +67,10 @@ button:hover {
     justify-self: center;
 }
 
+/* #family_legacy_video:hover {
+    cursor: pointer;
+} */
+
 #awards_cont {
     display: grid;
     grid-template-rows: 150px 100px 250px;
