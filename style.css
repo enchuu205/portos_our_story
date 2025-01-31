@@ -268,6 +268,7 @@ button:hover {
         margin-right: 0;
         width: 75vw;
         justify-self: center;
+
     }
 
     #family_legacy_video {
@@ -276,9 +277,10 @@ button:hover {
 
     #description_text {
         font-size: 20px;
-        margin: 10px 0px;
         text-wrap: wrap;
         justify-self: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     #hr_block {
