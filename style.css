@@ -118,8 +118,6 @@ button:hover {
 }
 
 .review_image {
-    width: 399px;
-    height: 288px;
     object-fit: cover;
 }
 
@@ -197,17 +195,20 @@ button:hover {
         display: grid;
         grid-template-columns: 33% 33% 33%;
         justify-content: center;
+        /* justify-content: space-between; */
     }
 
     .review_cont {
         display: grid;
-        grid-template-rows: 300px 100px auto 30px 100px;
+        grid-template-rows: 300px 100px auto auto 100px;
         justify-items: center;
-        min-width: 500px;
+        /* min-width: 500px; */
+        padding: 0px 30px;
     }
 
     .review_image {
-        width: 399px;
+        width: 25vw;
+        /* min-height: 288px; */
         height: 288px;
         object-fit: cover;
     }
@@ -218,7 +219,8 @@ button:hover {
 
     .review_text {
         font-size: 16px;
-        width: 250px;
+        max-width: 250px;
+        width: auto;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -228,6 +230,18 @@ button:hover {
         font-size: 16px;
     }
 
+}
+
+/* TABLET VIEW - FONT RESIZING */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* .reviewer_name {
+        height: auto;
+    } */
+
+    .review_text {
+        font-size: 14px;
+    }
 }
 
 
@@ -244,7 +258,7 @@ button:hover {
     }
 
     #family_legacy_header {
-        font-size: 48px;
+        font-size: 54px;
         width: 300px;
         margin-bottom: 10px;
     }
@@ -261,7 +275,7 @@ button:hover {
     }
 
     #description_text {
-        font-size: 18px;
+        font-size: 20px;
         margin: 10px 0px;
         text-wrap: wrap;
         justify-self: center;
@@ -321,7 +335,13 @@ button:hover {
         margin-bottom: 40px;
     }
 
+    .review_text {
+        width: 300px;
+        font-size: 20px;
+    }
+
     .review_image {
+        max-height: 300px;
         width: 100vw;
         object-fit: cover;
         object-position: right top;
