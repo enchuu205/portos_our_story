@@ -58,6 +58,7 @@ button:hover {
 
 #hr_block {
     max-width: 1100px;
+    width: 85vw;
 }
 
 /* #awards_cont {
@@ -76,8 +77,6 @@ button:hover {
 #awards_title {
     font-family: "Bebas Neue";
     font-size: 64px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
 }
 
@@ -182,8 +181,12 @@ button:hover {
         font-size: 18px;
     }
 
+    #awards_best_bakery_cont {
+        width: 85vw;
+    }
+
     .hr_best_bakery {
-        width: 1000px;
+        width: 35vw;
     }
 
     #awards_symbol {
@@ -193,6 +196,7 @@ button:hover {
     .all_reviews_cont {
         display: grid;
         grid-template-columns: 33% 33% 33%;
+        justify-content: center;
     }
 
     .review_cont {
@@ -248,16 +252,16 @@ button:hover {
     #family_legacy_description {
         align-items: center;
         margin-right: 0;
-        width: 80vw;
+        width: 75vw;
         justify-self: center;
     }
 
     #family_legacy_video {
-        width: 80vw;
+        width: 70vw;
     }
 
     #description_text {
-        font-size: 14px;
+        font-size: 18px;
         margin: 10px 0px;
         text-wrap: wrap;
         justify-self: center;
@@ -265,12 +269,13 @@ button:hover {
 
     #hr_block {
         margin-top: 50px;
+        width: 80vw;
     }
 
     #awards_cont {
         display: flex;
         justify-content: center;
-        justify-items: center;
+        align-items: center;
     }
 
     #awards_best_bakery_cont {
@@ -291,8 +296,9 @@ button:hover {
 
     #awards_title {
         font-size: 50px;
-        width: auto;
+        width: 90vw;
         margin-bottom: 20px;
+        justify-self: center;
     }
 
     #awards_symbol_cont {
@@ -318,6 +324,7 @@ button:hover {
     .review_image {
         width: 100vw;
         object-fit: cover;
+        object-position: right top;
     }
 
     .quotation {
